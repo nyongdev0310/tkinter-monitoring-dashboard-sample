@@ -1,0 +1,3 @@
+# Standard library: tkinter, logging
+# Optional (for future chart integration)
+matplotlib>=3.0.0
