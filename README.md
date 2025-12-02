@@ -193,7 +193,7 @@ It demonstrates:
 ## 📩 Contact
 
 GitHub: [@nyongdev0310](https://github.com/nyongdev0310)
-Upwork: [<Your Upwork profile URL>](https://www.upwork.com/freelancers/~01aa3c1c2c15726154)
+Upwork: [@nyongdev0310](https://www.upwork.com/freelancers/~01aa3c1c2c15726154)
 Fiverr: <Your Fiverr profile URL>
 
 - Feel free to reach out if you need:
