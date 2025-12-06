@@ -1,22 +1,36 @@
-# Python Tkinter Industrial Monitoring Dashboard (Sample)
+---
 
-This repository contains a **sample industrial monitoring dashboard**
-built with **Python and Tkinter**.
-
-The goal of this project is to demonstrate a clean, extensible desktop GUI layout
-that can be used for:
-
-- industrial device monitoring
-- sensor data visualization
-- real‑time status updates
-- event logging
-- Windows‑based automation/control tools
-
-It is also intended as a **portfolio piece** for platforms like **Upwork** and **Fiverr**.
+## Overview
+A simple, extensible Tkinter monitoring dashboard prototype designed to evolve into real sensor/API-driven industrial UIs.
 
 ---
 
-## 🔧 Features
+## What this is for
+- Demonstrating a clean desktop monitoring layout and flow.
+- Serving as a foundation for future integration with live data sources.
+
+---
+
+## Key features
+- Lightweight Windows-friendly Tkinter UI.
+- Clear layout suitable for operational monitoring.
+- Easy-to-extend structure for real-time data integration.
+
+---
+
+## Edge cases handled
+- UI structure designed to avoid tight coupling between view and data logic.
+- Ready for incremental expansion without rewriting the whole app.
+- Suitable as a stable base for future batch/real-time modules.
+
+---
+
+## Maintenance-ready by design
+Organized with an extension-first structure so new widgets, data sources, and refresh logic can be added safely.
+
+---
+
+## Features
 
 Current demo features:
 
@@ -39,7 +53,7 @@ Current demo features:
 
 ---
 
-## 🏗 Project Structure
+## Project Structure
 
 ```text
 python-tkinter-industrial-monitoring-dashboard/
@@ -48,9 +62,8 @@ python-tkinter-industrial-monitoring-dashboard/
 │  ├─ app.py               # MonitoringApp class (main Tkinter GUI)
 │
 ├─ screenshots/
-│  ├─ dashboard_main.png   # Main layout screenshot
-│  ├─ dashboard_log.png    # Example with selected device + log entries
-│
+│  ├─ 01-main.png          # Main layout screenshot
+│  ├─ 02-logg.png          # Example with selected device + log │  ├─ 03-finished.png      # Example with selected device + log 
 ├─ main.py                 # Entry point script
 ├─ README.md               # This file
 ├─ requirements.txt        # Optional dependencies (e.g. matplotlib)
@@ -59,7 +72,7 @@ python-tkinter-industrial-monitoring-dashboard/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository
 ```bash
@@ -86,12 +99,13 @@ python main.py
 ```
 You should see a window like this:
 Screenshots (example)
-![Main Dashboard](screenshots/dashboard_main.png)  
-![Device Log](screenshots/dashboard_log.png)
+![Main Dashboard](screenshots/01-main.png)  
+![Device Log](screenshots/02-logging.png)
+![Finished](screenshots/03-finished.png)
 
 ---
 
-## 🧠 Design Overview
+## Design Overview
 
 The GUI is implemented as a single MonitoringApp class that inherits from tk.Tk.
 
@@ -129,7 +143,7 @@ it can be extended into a real industrial monitoring application:
 
 ---
 
-## 🧪 Code Style & Architecture
+## Code Style & Architecture
 
 - Python standard library only for the core demo (Tkinter + logging)
 - Class‑based GUI (MonitoringApp)
@@ -152,7 +166,7 @@ This makes it easier to:
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 You can see the dashboard in action here:
 
@@ -164,7 +178,7 @@ Or click the thumbnail below:
 
 ---
 
-## 🚀 Possible Extensions
+## Possible Extensions
 
 Some ideas for future improvements:
 - Integrate real sensor data or API endpoints
@@ -175,7 +189,7 @@ Some ideas for future improvements:
 
 ---
 
-## 💼 Portfolio / Freelance Context
+## Portfolio / Freelance Context
 
 This project is designed as a portfolio piece for:
 - Upwork
@@ -190,11 +204,10 @@ It demonstrates:
 
 ---
 
-## 📩 Contact
+## Contact
 
 GitHub: [@nyongdev0310](https://github.com/nyongdev0310)
-Upwork: [<Your Upwork profile URL>](https://www.upwork.com/freelancers/~01aa3c1c2c15726154)
-Fiverr: <Your Fiverr profile URL>
+Upwork: [@nyongdev0310](https://www.upwork.com/freelancers/~01aa3c1c2c15726154)
 
 - Feel free to reach out if you need:
 - custom desktop automation tools
