@@ -208,6 +208,10 @@ It demonstrates:
 
 GitHub: [@nyongdev0310](https://github.com/nyongdev0310)
 Upwork: [@nyongdev0310](https://www.upwork.com/freelancers/~01aa3c1c2c15726154)
+<<<<<<< HEAD
+=======
+Fiverr: <Your Fiverr profile URL>
+>>>>>>> 6804d8eb304393dfcca3c858ac0d88fe65797bdf
 
 - Feel free to reach out if you need:
 - custom desktop automation tools
